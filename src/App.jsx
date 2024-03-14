@@ -5,6 +5,7 @@ import Programs from './components/programs/Programs'
 import Title from './components/title/Title'
 import About from './components/about/About'
 import Campus from './components/campus/Campus'
+import Testimonials from './components/testimonials/Testimonials'
 function App() {
   return (
     <div>
@@ -16,6 +17,9 @@ function App() {
       <About/>
       <Title subTitle='Gallery' title=' Campus Images'/>
       <Campus/>
+      <Title subTitle='Testimonials' title='What our Student says'/>
+      <Testimonials/>
+
       </div>
     </div>
   )
