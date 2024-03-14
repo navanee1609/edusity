@@ -1,8 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import './hero.css'
-const Hero = () => {
+function Hero() {
   return (
-    <div>Hero</div>
+    <div className='hero'>
+
+    </div>
   )
 }
 
