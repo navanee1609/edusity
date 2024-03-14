@@ -9,7 +9,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title/>
+        <Title subTitle='Our Program' title='What we offer'/>
       <Programs/>
       </div>
     </div>
