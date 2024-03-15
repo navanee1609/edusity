@@ -43,3 +43,15 @@ a{
     background-color: #212EA0;
     color: aliceblue;
 }
+
+/* media query */
+
+@media screen and (max-width:1200px) {
+    .containe5r{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}
