@@ -43,3 +43,16 @@
     width: 60px;
     margin-bottom: 10px;
 }
+
+/* media query */
+
+@media (max-width:650px) {
+    .programs{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .program{
+        flex-basis: 100%;
+        margin:20px
+    }
+}
